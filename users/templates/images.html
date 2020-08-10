@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="container">
+
+    <div class="row">
+        <img src="{{image.actual_image.url}}" class="img-responsive" alt="Image">
+    </div>
+    <div class="row">
+        <p> {{image.name}} </p>
+    </div>
+    <div class="row">
+        <p> {{image.caption}} </p>
+    </div>
+  
+</div>
+
+{% endblock %}
