@@ -7,7 +7,7 @@ from django.utils import timezone
 
 # Create your views here.
 def home(request):
-    return render(request,'home.html')
+    return render(request,'base.html')
 
 def images(request):
     images = Images.objects.all().filter(created_time__lte=timezone.now()).order_by('-created_time')
