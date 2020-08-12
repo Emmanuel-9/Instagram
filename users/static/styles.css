@@ -13,10 +13,49 @@ header{
 }
 .navigation{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    padding: 26px 20px;
-    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content: space-between;
+}
+.card{
+    background-color: #ffff;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    border: 8px solid #cccccc;
+    padding-top: 50px;
+    
+    margin: 60px;
+}
+.card-header{
+    text-decoration: none;
+    color: black;
+}
+.profile-image{
+    
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 0;
+    border: 0 solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.image-info{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+.options{
+    float: right;
+    padding-right: 2px;
+    
+}
 
+.icons a{
+    padding: 7px;
+}
+.save{
+    float: right;
 }
