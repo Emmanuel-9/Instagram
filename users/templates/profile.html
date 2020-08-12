@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ block.super }}
+  
+     <div class="container">
+        {% for profile in profiles %}
+         <img src="{{profile.profile_photo.url}}" class="thumb-nail" style="padding-top: 100px; border-radius: 50%;">
+         <div class="row">
+             <p>{{profile.bio}}</p>
+         </div>
+        {% endfor %} 
+     </div>
+    
+{% endblock %}
