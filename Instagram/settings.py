@@ -106,14 +106,7 @@ WSGI_APPLICATION = 'Instagram.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2-binary',
-        'NAME': 'instagram',
-        'USER': 'manuel',
-        'PASSWORD': '.Sct.111'
-    }
-}
+
 
 
 # Password validation
